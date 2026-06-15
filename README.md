@@ -1,5 +1,5 @@
-#<p align="center">  Animal-visit-reporting
-#
+# <p align="center">  Animal-visit-reporting
+
 Open-source tool developed to manage the visits of animals on water trough locations in grazing fields equiped with UHF-identification tags. The software allows a remote-view on the animals coming to the water trough, and can generate reports of said visits on a known period of time.
 
 #  About
