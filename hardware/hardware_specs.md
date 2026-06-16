@@ -23,7 +23,7 @@ This device is designed in the form of a case containing a mini-PC (BeagleBoard)
 ●	Solar Panel, EcoFlow 220W Bifacial<br>
 ●	4G/5G router - Huawei B535<br>
 ●	Linux server Debian 12.7<br><br>
-![Electronic components and connections figure](hardware\Valise_Descriptif.png)<br><br>
+![Electronic components and connections figure](hardware/Valise_Descriptif.png)<br><br>
  <u>Operating System:</u><br>
 The OS (installed on the Beagleboard) has the following functions: <br>
   - Control of the reader<br>
