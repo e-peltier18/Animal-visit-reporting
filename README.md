@@ -3,8 +3,8 @@
 Open-source tool developed to manage the visits of animals on water trough locations in grazing fields equiped with UHF-identification tags. The software allows a remote-view on the animals coming to the water trough, and can generate reports of said visits on a known period of time.
 
 This digital solution for livestock remote monitoring is composed of two main parts :
-  -  The hardware collects the Ultra High Frequency (UHF) data directly onfield through the antenna. [The hardware specifications and caracteristics](hardware/hardware_specs)
-  -  The software processes and analyzes the UHF data. [The software specifications and caracteristics](software/software_specs)
+  -  The hardware collects the Ultra High Frequency (UHF) data directly onfield through the antenna. [The hardware specifications and caracteristics](hardware/hardware_specs.md)
+  -  The software processes and analyzes the UHF data. [The software specifications and caracteristics](software/software_specs.md)
 
 This livestock remote monitoring digital solution was created in the context of the OpenAgri project, funded by the EU’s Horizon Europe research and innovation programme (Grant Agreement no. 101134083).
 

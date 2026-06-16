@@ -1,3 +1,5 @@
+#SQL-function to compile visits from UHF dataframe 
+
 create function buildandsavevisits(job_id bigint, readers text[], antennas text[], target character varying, minimal_duration integer, delay_between_visits integer, startdatetime timestamp without time zone, enddatetime timestamp without time zone, tz integer) returns void
     language sql
 as
