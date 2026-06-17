@@ -1,25 +1,14 @@
-# <p align="center">  Animal visit reporting
+# <p align="center">  Animal visit reporting</p>
 
 Open-source tool developed to manage the visits of beef cattles on water trough locations in grazing fields. The animals are identified with RFID UHF-tags.<br>
 Two main parts compose this livestock digital solution : 
-  1. The [hardware](hardware/hardware_specs.md)
-  
-  2. The [software](software/software_specs.md)<br><br>
+  1. The [hardware](hardware/hardware_specs.md)<br>
+  The smartcase is composed of electronics as illustrated :<br>
+  ![Electronic components and connections figure](hardware/Valise_Descriptif.png)<br>
+  For further information and recommendation regarding this part, please find more details in the corresponding repository. <br><br>
+  2. The [software](software/software_specs.md)<br>
   The software allows a remote-view on the animals coming to the water trough, and can generate reports of said visits on a known period of time.<br>
+  You will find details in the homonym repository. Furthermore the source code of the visit reporting is available in the repository [algorithm](algorithm/buildandsavevisits.sql)<br>
 
 This livestock remote monitoring digital solution was created in the context of the OpenAgri project, funded by the EU’s Horizon Europe research and innovation programme (Grant Agreement no. 101134083).
 
-##  About
-
-This algorithm builds a list of visits for a given animal (identified by its RFID UHF ID) based on a list of detections.
-It uses two parameters to aggregate detections:
-- Intra-visit delay: expressed in seconds, this parameter qualify the max delay between detections so they could be aggregated in the same visit.
-- Minimum visit duration: expressed in seconds, this parameter allows to discard too short visits.
-
-Considered readings can be filtered using the following parameters:
-- target: targeted animal’s UHF ID
-- readers: consider only readings from the given readers
-- antennas: consider only readings from the given antennas from the readers provided in parameter “readers”
-- start/end times: temporal frame of considered readings 
-
-The algorithm has been created as a PostgreSQL function. It relies on a table containing raw detections and produces results in another table.
