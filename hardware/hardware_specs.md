@@ -37,6 +37,29 @@ Two types of communication with database are possible :<br>
 The solution must be supplied with electric power. For use in parcels, we used a rechargeable electric station EcoFlow Delta 2 Max plugged with an EcoFlow 220W Bifacial solar panel.<br>
 We assessed the energy consumption metering for the edge device with this system. Current and voltage data logger were used to measure the consumption of complete RFID UHF device (RFID reader, 4G router, mini-pc).<br>
 <u>Read range:</u> up to 6 meters<br>
-<u>Power consumption:</u> 6 Wh (stand-by mode), 18 Wh (UHF reading)<br>
-
- 
+<u>Power consumption:</u> 6 Wh (stand-by mode), 18 Wh (UHF reading)<br><br>
+## Bill of Materials (BOM)<br>
+| Component | References | Supplier | Link | Qt per Case |
+|-----------|------------|----------|------|-------------|
+|Waterproof hard case (35x30x15)|B07NDGR28P|Amazon|https://amzn.eu/d/35ub9jj|1|
+|BeagleBoard Black|102110420|Farnell|https://fr.farnell.com/seeed-studio/102110420/carte-beaglebone-black/dp/3520081?st=beagleboard|1|
+|Bluetooth module with integrated antenna|RN42XVP-I/RM|Farnell|https://fr.farnell.com/microchip/rn42xvp-i-rm/module-bt-802-15-1-xv-cl2-pcb/dp/2321374?st=bluetooth%20module%20rn|1|
+|DS3231 RTC module|B076GP5B94|Amazon|https://amzn.eu/d/01zgO1g|1|
+|Flat Cat 6 RJ45 cable|B0DYTQGGR4|Amazon|https://amzn.eu/d/2MMRjdw|3|
+|LED pack|B07RTWQSJB|Amazon|https://amzn.eu/d/alap5uP|3|
+|IP67 LED holder / mount|A1048OAAAC|Farnell|https://fr.farnell.com/arcolectric/a10480a/support-led-scelle/dp/232324?ost=232324|3|
+|USB 2.0 to Ethernet adapter|B00M77HLII|Amazon|https://amzn.eu/d/8mH5Unt|1|
+|IP68 Ethernet bulkhead connector / port|B0C812L8T6|Amazon|https://amzn.eu/d/9piP0xc|1|
+|24V to 5V DC/DC voltage regulator|B0BFFDSNRC|Amazon|https://amzn.eu/d/4g2QgrU|1|
+|AC/DC Power supply unit (PSU)|B09FDZ897P|Amazon|https://amzn.eu/d/52uYn1g|1|
+|Midspan Injector (R700 compatible)|B0D5D9GHTC|Amazon|https://amzn.eu/d/3YbjNPI|1|
+|5.5/2.1mm DC power jack (solder type)|B07VQ6VFDN|Amazon|https://amzn.eu/d/eU5gVjU|1|
+|GX16-2 connector (2-pin)|B07L682MMC|Amazon|https://amzn.eu/d/2F6ZMPc|1|
+|GX16-4 connector (4-pin)|B07VTKJCPZ|Amazon|https://amzn.eu/d/6mr5g59|2|
+|2-channel relay module|B07GXC4FGP|Amazon|https://amzn.eu/d/foLyfYs|1|
+|Occupancy sensor / Presence sensor (12-24V)|B0823YJS5G|Amazon|https://amzn.eu/d/7I1P4qI|2|
+|4-core cable (for sensors)|B0CWLR33WS|Amazon|https://amzn.eu/d/276glVN|1|
+|Phoenix Contact MC 1.5/ 9-ST-3.81|B071R5W5Q9|Amazon|https://amzn.eu/d/6LVo7Ui|1|
+|Ideal diode|B09D7RYCV9|Amazon|https://amzn.eu/d/1xx0ulq|1|
+|Terminal block|B0C3HDVJC3|Amazon|https://amzn.eu/d/hYma3dR|1|
+|USB QC + PD module (Quick Charge + Power Delivery)|B07R8JV1LX|Amazon|https://amzn.eu/d/1Ii0rrP|1|
